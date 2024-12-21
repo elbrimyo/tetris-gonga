@@ -15,20 +15,20 @@ This repository contains the source code for a Tetris clone game developed in C+
 
 ## File Structure
 - **Block Management**:
-  - `block.cpp` / `Block.h`: Defines the `Block` class and its behavior (movement, rotation, etc.).
+  - `block.cpp` / `block.h`: Defines the `Block` class and its behavior (movement, rotation, etc.).
   - `blocks.cpp`: Specific block shapes (e.g., LBlock, JBlock, etc.).
 
 - **Colors**:
-  - `golors.cpp` / `Colors.h`: Defines and assigns colors for different blocks.
+  - `colors.cpp` / `colors.h`: Defines and assigns colors for different blocks.
 
 - **Game Logic**:
-  - `game.cpp` / `Game.h`: Manages the game state, input handling, block spawning, and scoring.
+  - `game.cpp` / `game.h`: Manages the game state, input handling, block spawning, and scoring.
 
 - **Grid**:
-  - `grid.cpp` / `Grid.h`: Defines the game grid and handles row clearing and rendering.
+  - `grid.cpp` / `grid.h`: Defines the game grid and handles row clearing and rendering.
 
 - **Position**:
-  - `position.cpp` / `Position.h`: Represents individual grid positions.
+  - `position.cpp` / `position.h`: Represents individual grid positions.
 
 - **Main**:
   - `main.cpp`: Entry point of the application. Sets up the game loop, window, and rendering.
